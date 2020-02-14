@@ -751,6 +751,9 @@
                                             <size key="minSize" width="435" height="300"/>
                                             <size key="maxSize" width="450" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="mQw-60-Z4q" id="tQo-it-RlL"/>
+                                            </connections>
                                         </textView>
                                     </subviews>
                                 </clipView>
@@ -765,6 +768,9 @@
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="B6Q-RV-7R9" id="OEq-14-UpG"/>
+                    </connections>
                 </viewController>
                 <customObject id="nz4-Gp-bjN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -788,6 +794,9 @@
                             </wkWebView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="previewView" destination="UQn-pb-1LP" id="bf8-Cx-dMT"/>
+                    </connections>
                 </viewController>
                 <customObject id="OSp-uT-dZX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
