@@ -15,6 +15,13 @@ class TextViewController: NSViewController, NSTextDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+    }
+    
+    override func viewDidAppear() {
+        if let document = getDocument() {
+            textView.string = document.markdown
+        }
     }
     
     func saveTextViewContents() {
