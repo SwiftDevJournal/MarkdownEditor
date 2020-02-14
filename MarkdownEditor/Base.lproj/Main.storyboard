@@ -780,20 +780,14 @@
         <scene sceneID="DWx-85-YFz">
             <objects>
                 <viewController id="cNw-Qy-KHr" userLabel="Preview View Controller" customClass="PreviewViewController" customModule="MarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="Wlu-Na-23g">
+                    <wkWebView key="view" wantsLayer="YES" id="UQn-pb-1LP">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQn-pb-1LP">
-                                <rect key="frame" x="0.0" y="0.0" width="444" height="300"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <wkWebViewConfiguration key="configuration">
+                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                            <wkPreferences key="preferences"/>
+                        </wkWebViewConfiguration>
+                    </wkWebView>
                     <connections>
                         <outlet property="previewView" destination="UQn-pb-1LP" id="bf8-Cx-dMT"/>
                     </connections>
