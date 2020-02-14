@@ -15,4 +15,17 @@ class SplitViewController: NSSplitViewController {
         // Do view setup here.
     }
     
+    func getTextViewController() -> TextViewController? {
+        if let viewController = children.first as? TextViewController {
+            return viewController
+        }
+        return nil
+    }
+    
+    func getPreviewViewController() -> PreviewViewController? {
+        if let viewController = children[1] as? PreviewViewController {
+            return viewController
+        }
+        return nil
+    }
 }
