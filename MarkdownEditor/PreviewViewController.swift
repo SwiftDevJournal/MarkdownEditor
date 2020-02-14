@@ -8,6 +8,7 @@
 
 import Cocoa
 import WebKit
+import Ink
 
 class PreviewViewController: NSViewController {
 
@@ -18,4 +19,13 @@ class PreviewViewController: NSViewController {
         // Do view setup here.
     }
     
+    func updatePreview(text: String) {
+        let html = parse(text: text)
+        previewView.loadHTMLString(html, baseURL: nil)
+    }
+    
+    func parse(text: String) -> String {
+        let parser = MarkdownParser()
+        return parser.html(from: text)
+    }
 }
