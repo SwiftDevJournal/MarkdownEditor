@@ -789,7 +789,7 @@
                         </wkWebViewConfiguration>
                     </wkWebView>
                     <connections>
-                        <outlet property="previewView" destination="UQn-pb-1LP" id="bf8-Cx-dMT"/>
+                        <outlet property="previewView" destination="UQn-pb-1LP" id="Xji-1s-toW"/>
                     </connections>
                 </viewController>
                 <customObject id="OSp-uT-dZX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
