@@ -706,7 +706,7 @@
         <!--Split View Controller-->
         <scene sceneID="ZmE-st-I6w">
             <objects>
-                <splitViewController id="QXc-o1-fZo" sceneMemberID="viewController">
+                <splitViewController id="QXc-o1-fZo" customClass="SplitViewController" customModule="MarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem id="zNp-Sd-cRG"/>
                         <splitViewItem id="8Hh-es-bKx"/>
@@ -731,7 +731,7 @@
         <!--Text View Controller-->
         <scene sceneID="sZX-bU-5q5">
             <objects>
-                <viewController id="mQw-60-Z4q" userLabel="Text View Controller" sceneMemberID="viewController">
+                <viewController id="mQw-60-Z4q" userLabel="Text View Controller" customClass="TextViewController" customModule="MarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Lh9-rh-wfd">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -749,7 +749,7 @@
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <size key="minSize" width="435" height="300"/>
-                                            <size key="maxSize" width="435" height="10000000"/>
+                                            <size key="maxSize" width="450" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
@@ -773,7 +773,7 @@
         <!--Preview View Controller-->
         <scene sceneID="DWx-85-YFz">
             <objects>
-                <viewController id="cNw-Qy-KHr" userLabel="Preview View Controller" sceneMemberID="viewController">
+                <viewController id="cNw-Qy-KHr" userLabel="Preview View Controller" customClass="PreviewViewController" customModule="MarkdownEditor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Wlu-Na-23g">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
