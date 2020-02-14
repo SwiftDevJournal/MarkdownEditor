@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class TextViewController: NSViewController {
+class TextViewController: NSViewController, NSTextDelegate {
 
     @IBOutlet var textView: NSTextView!
     
@@ -17,4 +17,32 @@ class TextViewController: NSViewController {
         // Do view setup here.
     }
     
+    func saveTextViewContents() {
+        if let document = getDocument() {
+            document.markdown = textView.string
+        }
+    }
+    
+    func textDidChange(_ notification: Notification) {
+        saveTextViewContents()
+        updateLivePreview(text: textView.string)
+        if let document = getDocument() {
+            document.updateChangeCount(NSDocument.ChangeType.changeDone)
+        }
+    }
+    
+    func updateLivePreview(text: String) {
+        if let splitViewController = parent as? SplitViewController,
+            let previewController = splitViewController.getPreviewViewController() {
+            
+            previewController.updatePreview(text: text)
+        }
+    }
+    
+    func getDocument() -> Document? {
+        if let splitViewController = parent as? SplitViewController {
+            return splitViewController.getDocument()
+        }
+        return nil
+    }
 }
