@@ -21,6 +21,7 @@ class TextViewController: NSViewController, NSTextDelegate {
     override func viewDidAppear() {
         if let document = getDocument() {
             textView.string = document.markdown
+            updateLivePreview(text: textView.string)
         }
     }
     
