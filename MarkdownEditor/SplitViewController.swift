@@ -15,6 +15,15 @@ class SplitViewController: NSSplitViewController {
         // Do view setup here.
     }
     
+    func getDocument() -> Document? {
+        if let window = view.window,
+            let windowController = window.windowController {
+            
+            return windowController.document as? Document
+        }
+        return nil
+    }
+    
     func getTextViewController() -> TextViewController? {
         if let viewController = children.first as? TextViewController {
             return viewController
