@@ -10,6 +10,8 @@ import Cocoa
 
 class TextViewController: NSViewController {
 
+    @IBOutlet var textView: NSTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
