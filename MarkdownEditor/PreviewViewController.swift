@@ -7,9 +7,12 @@
 //
 
 import Cocoa
+import WebKit
 
 class PreviewViewController: NSViewController {
 
+    @IBOutlet var previewView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
