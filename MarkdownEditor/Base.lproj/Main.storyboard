@@ -633,6 +633,57 @@
                                     </items>
                                 </menu>
                             </menuItem>
+                            <menuItem title="Markdown" id="Akh-m7-hdw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Markdown" id="cgy-vm-w1Q">
+                                    <items>
+                                        <menuItem title="Heading 1" keyEquivalent="1" id="IGS-Ng-nVN">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="3IA-eq-Tak"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Heading 2" keyEquivalent="2" id="f95-t5-8RD">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="6GB-BH-E0z"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Heading 3" keyEquivalent="3" id="YEP-ps-tWB">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="k0r-AK-gz3"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Heading 4" keyEquivalent="4" id="SjO-PT-hja">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="DUn-yk-sAb"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="Tsm-kn-fND"/>
+                                        <menuItem title="Bold" keyEquivalent="b" id="pBa-Dh-r05">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="pNr-AX-xUM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Italic" keyEquivalent="i" id="sSf-V1-5Jd">
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="8cB-CN-cI8"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="HDH-Ox-jeI"/>
+                                        <menuItem title="Code Block" id="FDQ-rD-ONC">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="WJv-5e-BV8"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Inline Code" id="LTD-GN-6uQ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="addTag:" target="Ady-hI-5gd" id="g4O-eg-ACQ"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
                             <menuItem title="Window" id="aUF-d1-5bR">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
