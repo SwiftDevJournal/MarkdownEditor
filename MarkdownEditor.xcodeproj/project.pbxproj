@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D92590B23FB292500F0DF44 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92590A23FB292500F0DF44 /* Tag.swift */; };
+		4D92590D23FB2A3700F0DF44 /* TagCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92590C23FB2A3700F0DF44 /* TagCreation.swift */; };
+		4DCD242523F73A3E00023454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD242423F73A3E00023454 /* AppDelegate.swift */; };
+		4DCD242923F73A3E00023454 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD242823F73A3E00023454 /* Document.swift */; };
+		4DCD242B23F73A3E00023454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCD242A23F73A3E00023454 /* Assets.xcassets */; };
+		4DCD242E23F73A3E00023454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCD242C23F73A3E00023454 /* Main.storyboard */; };
+		4DCD243A23F73A3E00023454 /* MarkdownEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD243923F73A3E00023454 /* MarkdownEditorTests.swift */; };
+		4DCD244523F73A3E00023454 /* MarkdownEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD244423F73A3E00023454 /* MarkdownEditorUITests.swift */; };
+		4DCD245423F73AD200023454 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4DCD245323F73AD200023454 /* Ink */; };
+		4DCD245623F73D5C00023454 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD245523F73D5C00023454 /* TextViewController.swift */; };
+		4DCD245823F73D8600023454 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD245723F73D8600023454 /* PreviewViewController.swift */; };
+		4DCD245A23F73DAF00023454 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD245923F73DAF00023454 /* SplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DCD243623F73A3E00023454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DCD241923F73A3E00023454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DCD242023F73A3E00023454;
+			remoteInfo = MarkdownEditor;
+		};
+		4DCD244123F73A3E00023454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DCD241923F73A3E00023454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DCD242023F73A3E00023454;
+			remoteInfo = MarkdownEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D92590A23FB292500F0DF44 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		4D92590C23FB2A3700F0DF44 /* TagCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCreation.swift; sourceTree = "<group>"; };
+		4DCD242123F73A3E00023454 /* MarkdownEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCD242423F73A3E00023454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DCD242823F73A3E00023454 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4DCD242A23F73A3E00023454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DCD242D23F73A3E00023454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DCD242F23F73A3E00023454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCD243023F73A3E00023454 /* MarkdownEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarkdownEditor.entitlements; sourceTree = "<group>"; };
+		4DCD243523F73A3E00023454 /* MarkdownEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkdownEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCD243923F73A3E00023454 /* MarkdownEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorTests.swift; sourceTree = "<group>"; };
+		4DCD243B23F73A3E00023454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCD244023F73A3E00023454 /* MarkdownEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkdownEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCD244423F73A3E00023454 /* MarkdownEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorUITests.swift; sourceTree = "<group>"; };
+		4DCD244623F73A3E00023454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCD245523F73D5C00023454 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		4DCD245723F73D8600023454 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		4DCD245923F73DAF00023454 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DCD241E23F73A3E00023454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCD245423F73AD200023454 /* Ink in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243223F73A3E00023454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243D23F73A3E00023454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DCD241823F73A3E00023454 = {
+			isa = PBXGroup;
+			children = (
+				4DCD242323F73A3E00023454 /* MarkdownEditor */,
+				4DCD243823F73A3E00023454 /* MarkdownEditorTests */,
+				4DCD244323F73A3E00023454 /* MarkdownEditorUITests */,
+				4DCD242223F73A3E00023454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DCD242223F73A3E00023454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD242123F73A3E00023454 /* MarkdownEditor.app */,
+				4DCD243523F73A3E00023454 /* MarkdownEditorTests.xctest */,
+				4DCD244023F73A3E00023454 /* MarkdownEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DCD242323F73A3E00023454 /* MarkdownEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD242423F73A3E00023454 /* AppDelegate.swift */,
+				4DCD242A23F73A3E00023454 /* Assets.xcassets */,
+				4DCD242823F73A3E00023454 /* Document.swift */,
+				4DCD242F23F73A3E00023454 /* Info.plist */,
+				4DCD242C23F73A3E00023454 /* Main.storyboard */,
+				4DCD243023F73A3E00023454 /* MarkdownEditor.entitlements */,
+				4DCD245723F73D8600023454 /* PreviewViewController.swift */,
+				4DCD245923F73DAF00023454 /* SplitViewController.swift */,
+				4D92590A23FB292500F0DF44 /* Tag.swift */,
+				4D92590C23FB2A3700F0DF44 /* TagCreation.swift */,
+				4DCD245523F73D5C00023454 /* TextViewController.swift */,
+			);
+			path = MarkdownEditor;
+			sourceTree = "<group>";
+		};
+		4DCD243823F73A3E00023454 /* MarkdownEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD243923F73A3E00023454 /* MarkdownEditorTests.swift */,
+				4DCD243B23F73A3E00023454 /* Info.plist */,
+			);
+			path = MarkdownEditorTests;
+			sourceTree = "<group>";
+		};
+		4DCD244323F73A3E00023454 /* MarkdownEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD244423F73A3E00023454 /* MarkdownEditorUITests.swift */,
+				4DCD244623F73A3E00023454 /* Info.plist */,
+			);
+			path = MarkdownEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DCD242023F73A3E00023454 /* MarkdownEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCD244923F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditor" */;
+			buildPhases = (
+				4DCD241D23F73A3E00023454 /* Sources */,
+				4DCD241E23F73A3E00023454 /* Frameworks */,
+				4DCD241F23F73A3E00023454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkdownEditor;
+			packageProductDependencies = (
+				4DCD245323F73AD200023454 /* Ink */,
+			);
+			productName = MarkdownEditor;
+			productReference = 4DCD242123F73A3E00023454 /* MarkdownEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DCD243423F73A3E00023454 /* MarkdownEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCD244C23F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditorTests" */;
+			buildPhases = (
+				4DCD243123F73A3E00023454 /* Sources */,
+				4DCD243223F73A3E00023454 /* Frameworks */,
+				4DCD243323F73A3E00023454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DCD243723F73A3E00023454 /* PBXTargetDependency */,
+			);
+			name = MarkdownEditorTests;
+			productName = MarkdownEditorTests;
+			productReference = 4DCD243523F73A3E00023454 /* MarkdownEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DCD243F23F73A3E00023454 /* MarkdownEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCD244F23F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditorUITests" */;
+			buildPhases = (
+				4DCD243C23F73A3E00023454 /* Sources */,
+				4DCD243D23F73A3E00023454 /* Frameworks */,
+				4DCD243E23F73A3E00023454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DCD244223F73A3E00023454 /* PBXTargetDependency */,
+			);
+			name = MarkdownEditorUITests;
+			productName = MarkdownEditorUITests;
+			productReference = 4DCD244023F73A3E00023454 /* MarkdownEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DCD241923F73A3E00023454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Swift Dev Journal";
+				TargetAttributes = {
+					4DCD242023F73A3E00023454 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4DCD243423F73A3E00023454 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4DCD242023F73A3E00023454;
+					};
+					4DCD243F23F73A3E00023454 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4DCD242023F73A3E00023454;
+					};
+				};
+			};
+			buildConfigurationList = 4DCD241C23F73A3E00023454 /* Build configuration list for PBXProject "MarkdownEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DCD241823F73A3E00023454;
+			packageReferences = (
+				4DCD245223F73AD200023454 /* XCRemoteSwiftPackageReference "Ink" */,
+			);
+			productRefGroup = 4DCD242223F73A3E00023454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DCD242023F73A3E00023454 /* MarkdownEditor */,
+				4DCD243423F73A3E00023454 /* MarkdownEditorTests */,
+				4DCD243F23F73A3E00023454 /* MarkdownEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DCD241F23F73A3E00023454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCD242B23F73A3E00023454 /* Assets.xcassets in Resources */,
+				4DCD242E23F73A3E00023454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243323F73A3E00023454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243E23F73A3E00023454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DCD241D23F73A3E00023454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D92590B23FB292500F0DF44 /* Tag.swift in Sources */,
+				4D92590D23FB2A3700F0DF44 /* TagCreation.swift in Sources */,
+				4DCD245A23F73DAF00023454 /* SplitViewController.swift in Sources */,
+				4DCD242523F73A3E00023454 /* AppDelegate.swift in Sources */,
+				4DCD242923F73A3E00023454 /* Document.swift in Sources */,
+				4DCD245623F73D5C00023454 /* TextViewController.swift in Sources */,
+				4DCD245823F73D8600023454 /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243123F73A3E00023454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCD243A23F73A3E00023454 /* MarkdownEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DCD243C23F73A3E00023454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCD244523F73A3E00023454 /* MarkdownEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DCD243723F73A3E00023454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DCD242023F73A3E00023454 /* MarkdownEditor */;
+			targetProxy = 4DCD243623F73A3E00023454 /* PBXContainerItemProxy */;
+		};
+		4DCD244223F73A3E00023454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DCD242023F73A3E00023454 /* MarkdownEditor */;
+			targetProxy = 4DCD244123F73A3E00023454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DCD242C23F73A3E00023454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DCD242D23F73A3E00023454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DCD244723F73A3E00023454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DCD244823F73A3E00023454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DCD244A23F73A3E00023454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarkdownEditor/MarkdownEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DCD244B23F73A3E00023454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarkdownEditor/MarkdownEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4DCD244D23F73A3E00023454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				INFOPLIST_FILE = MarkdownEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkdownEditor.app/Contents/MacOS/MarkdownEditor";
+			};
+			name = Debug;
+		};
+		4DCD244E23F73A3E00023454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				INFOPLIST_FILE = MarkdownEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkdownEditor.app/Contents/MacOS/MarkdownEditor";
+			};
+			name = Release;
+		};
+		4DCD245023F73A3E00023454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				INFOPLIST_FILE = MarkdownEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MarkdownEditor;
+			};
+			name = Debug;
+		};
+		4DCD245123F73A3E00023454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJHNKGG86R;
+				INFOPLIST_FILE = MarkdownEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDevJournal.MarkdownEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MarkdownEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DCD241C23F73A3E00023454 /* Build configuration list for PBXProject "MarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCD244723F73A3E00023454 /* Debug */,
+				4DCD244823F73A3E00023454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DCD244923F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCD244A23F73A3E00023454 /* Debug */,
+				4DCD244B23F73A3E00023454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DCD244C23F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCD244D23F73A3E00023454 /* Debug */,
+				4DCD244E23F73A3E00023454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DCD244F23F73A3E00023454 /* Build configuration list for PBXNativeTarget "MarkdownEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCD245023F73A3E00023454 /* Debug */,
+				4DCD245123F73A3E00023454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DCD245223F73AD200023454 /* XCRemoteSwiftPackageReference "Ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Ink.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DCD245323F73AD200023454 /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DCD245223F73AD200023454 /* XCRemoteSwiftPackageReference "Ink" */;
+			productName = Ink;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DCD241923F73A3E00023454 /* Project object */;
+}
